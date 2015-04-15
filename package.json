@@ -1,0 +1,26 @@
+{
+  "name": "ragelibs",
+  "version": "1.0.0",
+  "description": "Webserver for generating random Madlibs-like files.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/app.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skeltonath/ragelibs.git"
+  },
+  "author": "David Peppel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skeltonath/ragelibs/issues"
+  },
+  "homepage": "https://github.com/skeltonath/ragelibs",
+  "dependencies": {
+    "express": "^4.12.3",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
