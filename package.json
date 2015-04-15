@@ -4,8 +4,8 @@
   "description": "Webserver for generating random Madlibs-like files.",
   "main": "index.js",
   "scripts": {
-    "start": "grunt && forever start build/app.min.js",
-    "stop": "forever stopall",
+    "start": "grunt && forever start -a -l ragelibs.log -o ragelibs.out.log -e ragelibs.err.log build/app.min.js",
+    "stop": "forever stopall"
   },
   "repository": {
     "type": "git",
